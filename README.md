@@ -71,7 +71,7 @@ Get the numeric ids of the rooms you want the bot to join, comma
 delimited. If you want the bot to connect to `https://mysubdomain.campfirenow.com/room/42` 
 and `https://mysubdomain.campfirenow.com/room/1024` then you'd add it like this:
 
-    % heroku config:add HUBOT_CAMPFIRE_ROOMS="42,1024"
+    % heroku config:add HUBOT_CAMPFIRE_ROOMS="451817,451819,452061"
 
 Add the subdomain hubot should connect to. If you web URL looks like
 `http://mysubdomain.campfirenow.com` then you'd add it like this:
