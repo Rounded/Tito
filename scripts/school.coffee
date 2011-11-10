@@ -4,5 +4,5 @@
 #
 
 module.exports = (robot) ->
-  robot.hear /nope/i, (msg) ->
+  robot.hear /school/i, (msg) ->
     msg.send "http://www.youtube.com/watch?v=y9YsxbSK0Vo"
