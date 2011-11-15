@@ -47,8 +47,8 @@ module.exports = (robot) ->
       msg.send url
 
 memeGenerator = (msg, generatorID, imageID, text0, text1, callback) ->
-  username = process.env.HUBOT_MEMEGEN_USERNAME
-  password = process.env.HUBOT_MEMEGEN_PASSWORD
+  username = ecandino
+  password = Qwer123$
 
   unless username
     msg.send "MemeGenerator username isn't set. Sign up at http://memegenerator.net"
