@@ -4,4 +4,4 @@
 
 module.exports = (robot) ->
   robot.respond /show me celery man/i, (message) ->
-    message.send "http://mlkshk.com/r/4SBP"
+    message.send "http://29.media.tumblr.com/tumblr_l28un5RM1L1qblknto1_r1_250.gif"
