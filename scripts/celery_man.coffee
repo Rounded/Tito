@@ -1,6 +1,6 @@
-# Bees are insane
+# Computer Show me Celery Man
 #
-# bees - Oprah at her finest, or a good way to turn the fans on coworkers machines
+# A stint from Tim & Eric
 
 module.exports = (robot) ->
   robot.respond /show me celery man/i, (message) ->
