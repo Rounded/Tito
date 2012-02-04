@@ -4,5 +4,5 @@
 #
 
 module.exports = (robot) ->
-  robot.hear /(quite|lyme|lime|whilst)/i, (msg) ->
+  robot.hear /.*(quite|lyme|lime|whilst)/i, (msg) ->
     msg.send "http://wearemobile.co/funny/Ben.jpg"
